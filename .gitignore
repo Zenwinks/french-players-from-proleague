@@ -3,7 +3,7 @@
 /dist
 
 # local env files
-.env
+#.env
 .env.local
 .env.*.local
 
@@ -21,4 +21,4 @@ yarn-error.log*
 *.sln
 *.sw?
 .eslintrc.js
-#vue.config.js
+vue.config.js
