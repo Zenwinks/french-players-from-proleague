@@ -16,7 +16,7 @@
       <button class="btn btn-primary btn-lg btn-block search-btn" type="button" @click="launchSearch()">
         <img
             alt="Logo EDF"
-            src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_%C3%89quipe_France_Football_2018.svg/1200px-Logo_%C3%89quipe_France_Football_2018.svg.png">
+            src="../../public/favicon.png">
         Rechercher
       </button>
     </div>
@@ -200,8 +200,8 @@ export default {
 
     .search-btn {
       img {
-        width: 2%;
-        height: 2%;
+        width: 5%;
+        height: 5%;
       }
     }
   }
