@@ -90,7 +90,7 @@ export default {
     },
     getLeagues(id) {
       return new Promise(() => {
-        axios.get('league.php?league=' + id).then(response => {
+        axios.get('https://proleague.de/league.php?league=' + id).then(response => {
           this.getTeamsByLeague(response.data, 1)
         })
       })
@@ -118,7 +118,7 @@ export default {
       }
     },
     getTeamById(id, name) {
-      axios.get('team.php?id=' + id).then(response => {
+      axios.get('https://proleague.de/team.php?id=' + id).then(response => {
         this.getPlayersByTeam(response.data, 1, id, name)
       })
     },
@@ -162,7 +162,7 @@ export default {
     isFrench(id) {
       return new Promise(resolve => {
         let isFrench = false
-        axios.get('profil.php?id=' + id).then(response => {
+        axios.get('https://proleague.de/profil.php?id=' + id).then(response => {
           if (response.data.includes("France")) {
             isFrench = true
           }
