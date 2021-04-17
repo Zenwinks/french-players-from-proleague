@@ -21,4 +21,4 @@ yarn-error.log*
 *.sln
 *.sw?
 .eslintrc.js
-vue.config.js
+#vue.config.js
