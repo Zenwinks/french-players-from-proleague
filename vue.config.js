@@ -1,6 +1,3 @@
 module.exports = {
-  // options...
-  devServer: {
-    proxy: 'https://proleague.de/',
-  }
+  proxy: 'https://proleague.de/'
 }
